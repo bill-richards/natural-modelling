@@ -2,7 +2,7 @@
 
 Check out the repository's documentation [here](https://bill-richards.github.io/natural-modelling/)
 
-# Getting the source
+## Getting the source
 
 Because some of the solutions in this repository have dependencies on shared libraries, those libraries (which can be) are included as submodules. 
 When you get the source using
