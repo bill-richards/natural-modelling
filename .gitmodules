@@ -1,3 +1,6 @@
 [submodule "evolution\\libraries\\gsdc-common"]
 	path = evolution\\libraries\\gsdc-common
 	url = https://github.com/bill-richards/gsdc-common.git
+[submodule "language"]
+	path = language
+	url = https://github.com/bill-richards/natural-language-processing.git
