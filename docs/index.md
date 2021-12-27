@@ -19,7 +19,11 @@ be sure to also call
 ```
 $ git submodules update --init --recursive
 ```
+Then, when you need to update the submodules (to be certain that they are pointing to the current HEAD, run
 
+```
+$ git submodule update --remote --meerge
+```
 
 ### Markdown
 

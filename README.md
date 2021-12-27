@@ -14,3 +14,9 @@ Because some of the solutions in this repository have dependencies on other libr
 ```
 $ git submodule update --init --recursive
 ```
+
+When you need to update the submodules (to be certain that they are pointing to the current HEAD, run
+
+```
+$ git submodule update --remote --meerge
+```
