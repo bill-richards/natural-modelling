@@ -7,7 +7,7 @@ The basic premise is that all included sub-projects are concerned with modelling
 ## Knowledge Domains
 
 - [Evolution](https://bill-richards.github.io/evolution/)
-- [Language](https://bill-richards.github.io/natural-language-processing/)
+- [Language](../language/docs/index.md)
 
 ## Links
 
