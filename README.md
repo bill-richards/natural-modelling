@@ -1,22 +1,42 @@
 # Natural Modelling
 
+Check out the repository's documentation [here](https://bill-richards.github.io/natural-modelling/)
 
-This repository groups together some projects based around _Neural Networks_, _Genetic Algorithms_, _Natural Language Processing_ and whatever else I feel fits into the category of **Natural Modelling**
+## Getting the source
 
+Because some of the solutions in this repository have dependencies on shared libraries, those libraries (which can be) are included as submodules. 
+When you get the source using
 
-The basic premise is that all included sub-projects are concerned with modelling naturally ocurring phenomena, and mostly these projects serve little more than academic curiosity.
-
-
-# Getting the source
-
-Because some of the solutions in this repository have dependencies on other libraries, those libraries (which can be) are included as submodules. When you get the source, be sure to also call the following
-
-```
-$ git submodule update --init --recursive
+```cmd
+> git clone https://github.com/bill-richards/natural-modelling.git
 ```
 
-When you need to update the submodules (to be certain that they are pointing to the current HEAD, run
+be sure to also call
 
+```cmd
+> git submodules update --init --recursive
 ```
-$ git submodule update --remote --meerge
+
+## Updating the source
+
+### Update all submodules
+
+When you need to update all of the submodules (to be point to the current HEAD of their repositories), run
+
+```cmd
+> git submodule update --remote --meerge
+```
+
+### Update individual submodules
+
+When you want to update an individual submodule (and not ALL submodules) run the following
+
+```cmd
+> git submodule update <path-to-submodule>
+```
+
+so, for example, to update **only** the _gsdc-common_ submodule within the _evolution_ folder
+
+```cmd
+> git submodule update evolution/libraries/gsdc-common
 ```
