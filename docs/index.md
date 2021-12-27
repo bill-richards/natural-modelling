@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+## Welcome to GSDC's Natural Modelling Pages
 
-You can use the [editor on GitHub](https://github.com/bill-richards/natural-modelling/edit/develop/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repository groups together some projects based around _Neural Networks_, _Genetic Algorithms_, _Natural Language Processing_ and whatever else I feel fits into the category of **Natural Modelling**
+
+
+The basic premise is that all included sub-projects are concerned with modelling naturally ocurring phenomena, and mostly these projects serve little more than academic curiosity.
+
+Whenever commits are made to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in the site, from the content in the Markdown files.
 
 ### Markdown
 
