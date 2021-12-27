@@ -4,9 +4,15 @@ This repository groups together some projects based around _Neural Networks_, _G
 
 The basic premise is that all included sub-projects are concerned with modelling naturally ocurring phenomena, and mostly these projects serve little more than to satisfy academic curiosity.
 
-Whenever commits are made to the repository, GitHub Pages willl run [Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the content in the Markdown files, and therefore this documentation should always be up to date.
+## Knowledge Domains
+
+- [Evolution](https://bill-richards.github.io/evolution/)
+- [Language](https://bill-richards.github.io/natural-language-processing/)
 
 ## Links
 
 [Learn how to access the code base](code.md)
 
+### _Nota bene_
+
+Whenever commits are made to the repository, GitHub Pages willl run [Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the content in the Markdown files, and therefore this documentation should always be up to date.
