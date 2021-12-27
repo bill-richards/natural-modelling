@@ -53,7 +53,28 @@ git push
 
 This could be made a whole lot easier, I'm sure, but we have what we have and so, you will need to follow the instructions carefully.
 
-### The commands
+### No matter how many submodules contain change
+
+```cmd
+git submodule foreach git add . # iterates over all contained submodules and adds changes
+```
+
+### For each submdule containing local changes
+
+```cmd
+cd <submodule-name>
+git commit -a -m "sub module change description"
+cd ..
+git add .
+git commit -a -m "Commiting submodule changes from superproject"
+git push --recurse-submodules=on-demand
+```
+
+### Another way to get all up to date submodules
+
+```cmd
+git submodule foreach git pull origin development
+```
 
 #### _Nota bene_
 
