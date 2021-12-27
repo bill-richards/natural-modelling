@@ -48,3 +48,13 @@ Don't forget that you will also have to **push** those updates back to the remot
 ```cmd
 git push
 ```
+
+## Making changes to a submodule
+
+This could be made a whole lot easier, I'm sure, but we have what we have and so, you will need to follow the instructions carefully.
+
+### The commands
+
+#### _Nota bene_
+
+Not yet tested, but soon to be ... it is believed that when using the Visual Studio Git extension, and changes are made to a submodule, all changes are propagated back to their respective supr repositories.
