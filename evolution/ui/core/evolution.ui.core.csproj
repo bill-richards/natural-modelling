@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<AssemblyName>evolution-ui.core</AssemblyName>
+		<RootNamespace>evolution.ui</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Prism.Wpf" Version="8.1.97" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="events\" />
+	</ItemGroup>
+</Project>

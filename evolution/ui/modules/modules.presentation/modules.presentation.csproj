@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<AssemblyName>modules-evolution.presentation</AssemblyName>
+		<RootNamespace>evolution.presentation</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Prism.Wpf" Version="8.1.97" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\libraries\evolution-common\evolution-common.csproj" />
+		<ProjectReference Include="..\..\..\libraries\evolution-models\evolution-models.csproj" />
+		<ProjectReference Include="..\..\..\libraries\gsdc-common\gsdc-common.csproj" />
+		<ProjectReference Include="..\..\core\evolution.ui.core.csproj" />
+		<ProjectReference Include="..\..\services\presentation.services.interfaces\presentation.services.interfaces.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Views\" />
+	</ItemGroup>
+</Project>

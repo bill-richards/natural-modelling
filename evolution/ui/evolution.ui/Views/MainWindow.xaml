@@ -1,0 +1,16 @@
+﻿<Window x:Class="evolution.ui.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:core="clr-namespace:evolution.ui;assembly=evolution-ui.core"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" d:Height="350" d:Width="525"
+        Background="Transparent" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterOwner" TabIndex="0">
+    <StackPanel Orientation="Vertical">
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ControlPanelRegion}" TabIndex="1" />
+    </StackPanel>
+</Window>
