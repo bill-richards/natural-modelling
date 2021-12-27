@@ -12,9 +12,13 @@ Whenever commits are made to the repository, GitHub Pages willl run [Jekyll](htt
 
 Because some of the solutions in this repository have dependencies on shared libraries, those libraries (which can be) are included as submodules. 
 When you get the source using
-```git clone https://github.com/bill-richards/natural-modelling.git```
+```
+$ git clone https://github.com/bill-richards/natural-modelling.git
+```
 be sure to also call 
-```git submodules update --init --recursive```
+```
+$ git submodules update --init --recursive
+```
 
 
 ### Markdown
