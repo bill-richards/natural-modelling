@@ -12,5 +12,5 @@ The basic premise is that all included sub-projects are concerned with modelling
 Because some of the solutions in this repository have dependencies on other libraries, those libraries (which can be) are included as submodules. When you get the source, be sure to also call the following
 
 ```
-$ git submodules update --init --recursive
+$ git submodule update --init --recursive
 ```
