@@ -44,3 +44,11 @@ so, for example, to update **only** the _gsdc-common_ submodule within the _evol
 ```cmd
 git submodule update evolution/libraries/gsdc-common
 ```
+
+### After updating the submodule(s)
+
+Don't forget that you will also have to **push** those updates back to the remote repository
+
+```cmd
+git push
+```
