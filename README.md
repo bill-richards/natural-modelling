@@ -24,7 +24,7 @@ be sure to also call
 When you need to update all of the submodules (to be point to the current HEAD of their repositories), run
 
 ```cmd
-> git submodule update --remote --meerge
+> git submodule update --remote --merge
 ```
 
 ### Update individual submodules
