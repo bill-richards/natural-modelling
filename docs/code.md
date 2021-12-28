@@ -17,37 +17,23 @@ git submodule update --init --recursive
 
 It is important to note that a _**submodule**_ is linked to a repository at a specific version
 
-If the submodules do not refelect the current state of the super repositories -because commits have been made to those super repositories- then you will most likely want to update the submodules to incorporate those changes.
-
-### Update all submodules
-
-When you need to update all of the submodules (to be point to the current HEAD of their repositories), run
+If the submodules do not refelect the current state of their repositories -because commits have been made to those repositories- then you will most likely want to update the submodules to incorporate those changes.
 
 ```cmd
+REM Updates all of the submodules (to be point to the current HEAD of their repositories)
 git submodule update --remote --merge
-```
 
-### Update individual submodules
-
-When you want to update an individual submodule (and not ALL submodules) run the following
-
-```cmd
+REM Updates an individual submodule 
 git submodule update <path-to-submodule>
 ```
 
-so, for example, to update **only** the _gsdc-common_ submodule within the _evolution_ folder
+so, for example, to update **only** the _gsdc-common_ submodule within the _evolution_ superproject
 
 ```cmd
 git submodule update evolution/libraries/gsdc-common
 ```
 
-### After updating the submodule(s)
-
-Don't forget that you will also have to **push** those updates back to the remote repository
-
-```cmd
-git push
-```
+**N.B.** After updating the submodule(s) don't forget that you will also have to **push** those updates back to the remote repository using `git push`
 
 # Making changes to a submodule
 
@@ -94,4 +80,5 @@ git submodule foreach git pull origin development
 
 #### **_To be verified_**
 
-[] Using the Visual Studio Git extension, check that all changes are propagated back to their respective repositories.
+- [ ] Using the Visual Studio Git extension, check that all changes are propagated back to their respective repositories.
+- [ ] soemthing else

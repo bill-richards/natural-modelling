@@ -4,14 +4,14 @@ This repository groups together some projects based around _Neural Networks_, _G
 
 The basic premise is that all included sub-projects are concerned with modelling naturally ocurring phenomena, and mostly these projects serve little more than to satisfy academic curiosity.
 
-## Knowledge Domains
-
-- [Evolution](https://bill-richards.github.io/evolution/)
-- [Language](https://bill-richards.github.io/natural-language-processing/)
-
 ## Links
 
 [Learn how to access the code base](code.md)
+
+## Knowledge Domains currently represented
+
+- [Evolution](https://bill-richards.github.io/evolution/)
+- [Language](https://bill-richards.github.io/natural-language-processing/)
 
 ### _Nota bene_
 
