@@ -79,3 +79,30 @@ git push --recurse-submodules=on-demand
 ```cmd
 git submodule foreach git pull origin develop
 ```
+
+## Adding a new submodule
+
+When a new project is to be added, generally it needs to go in the correct space. For example, if the project is concerned with NLP, then it should be made a submodule of the [**_natural-language-processing_**](https://github.com/bill-richards/natural-language-processing) repository, this way it will also be included within the [**_natural-modelling_**](https://github.com/bill-richards/natural-modelling) repository.
+
+```cmd
+# go to superproject
+cd <super-project-root>
+
+# create submodule
+git submodule add <new-project-url> <destination-folder>
+
+# commit the change
+git commit -a -m "Added <new-project> submodule"
+
+# push to remote origin
+git push 
+```
+
+For example, if we created a new project called _dialect-model_ which comes under the banner of NLP (natural language processing), we would performt he following
+
+```cmd
+cd natural-language-processing
+git submodule add https://github.com/bill-richards/dialect-model dialect
+git commit -a -m "Added new dialect submodule"
+git push
+```
