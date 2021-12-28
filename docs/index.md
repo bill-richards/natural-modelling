@@ -3,7 +3,7 @@
 This repository groups together some projects based around _Neural Networks_, _Genetic Algorithms_, _Natural Language Processing_ and whatever else I feel fits into the category of _**Natural Modelling**_: that is, computationally modelling concepts, theories, and objects from the world around us.
 
 The basic premise is that all included sub-projects are concerned with modelling naturally ocurring phenomena, and mostly these projects serve little more than to satisfy academic curiosity.
-<br /><br /><br /><br />
+<br /><br />
 
 ## Links
 
@@ -17,7 +17,7 @@ The basic premise is that all included sub-projects are concerned with modelling
 - [ ] Neural Networks
 - [ ] Genetic Algorithms
 
-<br /><br /><br /><br />
+<br /><br />
 
 ### _Nota bene_
 
