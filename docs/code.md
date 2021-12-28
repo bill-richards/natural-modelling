@@ -49,11 +49,13 @@ Don't forget that you will also have to **push** those updates back to the remot
 git push
 ```
 
-## Making changes to a submodule
+# Making changes to a submodule
 
 This could be made a whole lot easier, I'm sure, but we have what we have and so, you will need to follow the instructions carefully.
 
-### No matter how many submodules contain change
+If we work on a feature, it is possible or even probable that we will need to also extend the functionality expressed within a submodule project. Do your work and check it in!
+
+## No matter how many submodules contain change
 
 ```cmd
 git submodule foreach git add . # iterates over all contained submodules and adds changes
