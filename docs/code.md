@@ -76,7 +76,3 @@ git push --recurse-submodules=on-demand
 ```cmd
 git submodule foreach git pull origin develop
 ```
-
-#### **_To be verified_**
-
-- [ ] Check that all changes are propagated back to their respective repositories when using Visual Studio Git extension
