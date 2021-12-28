@@ -57,18 +57,32 @@ If we work on a feature, it is possible or even probable that we will need to al
 
 ## No matter how many submodules contain change
 
+You can add all of your changes to submodules either from within the submodule's root (i.e. it's local folder), which you would then need to do **_for each submodule with changes_**; alternatively, you can add the changes for all of those submodules **_from the root of the superproject_**, as follows.
+
 ```cmd
-git submodule foreach git add . # iterates over all contained submodules and adds changes
+REM iterates over all contained submodules and adds changes
+git submodule foreach git add . 
 ```
 
 ### For each submdule containing local changes
 
 ```cmd
+REM move to the submodule's directory
 cd <submodule-name>
+
+REM commit all changes for this submodule
 git commit -a -m "sub module change description"
+
+REM return to the project root
 cd ..
+
+REM adding everything here includes adding the committed submodule
 git add .
-git commit -a -m "Commiting submodule changes from superproject"
+
+REM commit the superproject
+git commit -a -m "Committing submodule changes from superproject"
+
+REM push all changes to the remote repository
 git push --recurse-submodules=on-demand
 ```
 
@@ -78,6 +92,6 @@ git push --recurse-submodules=on-demand
 git submodule foreach git pull origin development
 ```
 
-#### _Nota bene_
+#### **_To be verified_**
 
-Not yet tested, but soon to be ... it is believed that when using the Visual Studio Git extension, and changes are made to a submodule, all changes are propagated back to their respective supr repositories.
+[] Using the Visual Studio Git extension, check that all changes are propagated back to their respective repositories.
