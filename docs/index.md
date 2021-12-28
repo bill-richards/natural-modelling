@@ -1,4 +1,4 @@
-# Welcome to GSDC's Natural Modelling
+# Bill's Natural Modelling projects
 
 This repository groups together some projects based around _Neural Networks_, _Genetic Algorithms_, _Natural Language Processing_ and whatever else I feel fits into the category of _**Natural Modelling**_: that is, computationally modelling concepts, theories, and objects from the world around us.
 
