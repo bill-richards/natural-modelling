@@ -8,7 +8,7 @@ The basic premise is that all included sub-projects are concerned with modelling
 ## Links
 
 - [Learn how to access the code base](code.md)
-- [Known work items](work.md)
+- [Known work items](work.md) -i.e. what's still left to do here
 
 ## Knowledge Domains currently represented
 
