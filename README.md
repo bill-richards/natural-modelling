@@ -14,5 +14,5 @@ git clone https://github.com/bill-richards/natural-modelling.git
 be sure to also call
 
 ```cmd
-git submodules update --init --recursive
+git submodule update --init --recursive
 ```
