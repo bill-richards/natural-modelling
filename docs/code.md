@@ -58,6 +58,9 @@ cd <submodule-name>
 # commit all changes for this submodule
 git commit -a -m "sub module change description"
 
+# push the changes to HEAD of the remote _develop_ branch
+git push origin HEAD:develop
+
 # return to the project root
 cd ..
 
