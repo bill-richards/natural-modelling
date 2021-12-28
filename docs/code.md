@@ -32,7 +32,7 @@ so, for example, to update **only** the _gsdc-common_ submodule within the _evol
 git submodule update evolution/libraries/gsdc-common
 ```
 
-**N.B.** ==After updating the submodule(s) don't forget that you will also have to **push** those updates back to the remote repository using== `git push`
+**N.B.** After updating the submodule(s) don't forget that you will also have to **push** those updates back to the remote repository using `git push`
 
 ## Making changes to a submodule
 
