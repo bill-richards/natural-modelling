@@ -1,3 +1,6 @@
 [submodule "language"]
 	path = language
 	url = https://github.com/bill-richards/natural-language-processing.git
+[submodule "evolution"]
+	path = evolution
+	url = https://github.com/bill-richards/evolution-modelling.git
