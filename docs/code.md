@@ -17,7 +17,7 @@ It is important to note that a _**submodule**_ is linked to a repository at a sp
 If the submodules do not refelect the current state of their repositories -because commits have been made to those repositories- then you will most likely want to update the submodules to incorporate those changes.
 
 ```cmd
-# Updates all of the submodules (to be point to the current HEAD of their repositories)
+# Updates all of the submodules 
 git submodule update --remote --merge
 
 # Updates an individual submodule 
@@ -32,13 +32,13 @@ git submodule update evolution/libraries/gsdc-common
 
 **N.B.** After updating the submodule(s) don't forget that you will also have to **push** those updates back to the remote repository using `git push`
 
-# Making changes to a submodule
+## Making changes to a submodule
 
 This could be made a whole lot easier, I'm sure, but we have what we have and so, you will need to follow the instructions carefully.
 
 If we work on a feature, it is possible or even probable that we will need to also extend the functionality expressed within a submodule project. Do your work and check it in!
 
-## No matter how many submodules contain change
+### No matter how many submodules contain change
 
 You can add all of your changes to submodules either from within the submodule's root (i.e. it's local folder), which you would then need to do **_for each submodule with changes_**; alternatively, you can add the changes for all of those submodules **_from the root of the superproject_**, as follows.
 
