@@ -49,7 +49,7 @@ You can add all of your changes to submodules either from within the submodule's
 git submodule foreach git add . 
 ```
 
-### For each submdule containing local changes
+### For each submodule containing local changes
 
 ```cmd
 # move to the submodule's directory
@@ -71,7 +71,7 @@ git commit -a -m "Committing submodule changes from superproject"
 git push --recurse-submodules=on-demand
 ```
 
-### Another way to get all up to date submodules
+### Another way to update  all submodules
 
 ```cmd
 git submodule foreach git pull origin develop
@@ -79,4 +79,4 @@ git submodule foreach git pull origin develop
 
 #### **_To be verified_**
 
-- [ ]  Using the Visual Studio Git extension, check that all changes are propagated back to their respective repositories.
+- [ ] Check that all changes are propagated back to their respective repositories when using Visual Studio Git extension
