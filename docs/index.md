@@ -11,7 +11,7 @@ The basic premise is that all included sub-projects are concerned with modelling
 ## Knowledge Domains currently represented
 
 - [x] [Evolution](https://bill-richards.github.io/evolution/)
-- [x] [Language](https://bill-richards.github.io/natural-language-processing/)
+- [ ] [Language](https://bill-richards.github.io/natural-language-processing/)
 - [ ] Neural Networks
 - [ ] Genetic Algorithms
 
